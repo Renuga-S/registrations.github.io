@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #a7a2a2;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=text]:hover {
+  background-color: #ffffff;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+div.card {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+   background-color: #ffffff;
+  color: rgb(5, 5, 5);
+  padding: 10px;
+  font-size: 40px;
+   display: flex;
+        justify-content: center; /* Horizontally center */
+        align-items: center;     /* Vertically center */
+              margin-left: auto;
+        margin-right: auto;
+}
+
+</style>
+<body style="background-color: #58c55b;">
+<br><br><br><br><br><br><br>
+
+
+<div class="card">
+  <form action="/action_page.php">
+    <input type="text" id="fname" name="firstname" placeholder="username">
+
+    <input type="text" id="pass" name="password" placeholder="password">
+
+    <input type="submit" value="LOGIN">
+    
+  </form>
+</div>
+
+</body>
+</html>
